@@ -1,0 +1,12 @@
+{
+    "require": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "files": ["src/math.php"],
+        "psr-4": {
+            "Test\\": "src/",
+            "Test\\Test": "tests/"
+        }
+    }
+}
